@@ -17,3 +17,11 @@ https://www.youtube.com/watch?v=UT_tKPLejyU
 
 Sprites and groups
 https://www.youtube.com/watch?v=4TfZjhw0J-8
+
+
+
+Surfaces
+https://gamedevacademy.org/pygame-surface-tutorial-complete-guide/
+
+
+nodemon --sleep 5 python juego.py
