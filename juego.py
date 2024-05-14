@@ -26,8 +26,7 @@ cocina = pygame.image.load("imagenes/cocina.png").convert_alpha()
 cocina = pygame.transform.scale(cocina, TAMAÑO_VENTANA)
 capa_cocina.blit(cocina, (0, 0))
 
-patata = pygame.image.load("imagenes/patata.png").convert_alpha()
-patata = pygame.transform.scale(patata, (325, 400))
+
 
 # Bucle principal del juego
 jugando = True
