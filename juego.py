@@ -18,15 +18,15 @@ capa_clientes=pygame.Surface(TAMAÑO_VENTANA, pygame.SRCALPHA)
 capa_cocina=pygame.Surface(TAMAÑO_VENTANA, pygame.SRCALPHA)
 capa_ingredientes=pygame.Surface(TAMAÑO_VENTANA, pygame.SRCALPHA)
 
-fondo = pygame.image.load("fondo.png").convert_alpha()
+fondo = pygame.image.load("imagenes/fondo.png").convert_alpha()
 fondo = pygame.transform.scale(fondo, TAMAÑO_VENTANA)
 capa_fondo.blit(fondo, (0,0))
 
-cocina = pygame.image.load("cocina.png").convert_alpha()
+cocina = pygame.image.load("imagenes/cocina.png").convert_alpha()
 cocina = pygame.transform.scale(cocina, TAMAÑO_VENTANA)
 capa_cocina.blit(cocina, (0, 0))
 
-patata = pygame.image.load("patata.png").convert_alpha()
+patata = pygame.image.load("imagenes/patata.png").convert_alpha()
 patata = pygame.transform.scale(patata, (325, 400))
 
 # Bucle principal del juego
