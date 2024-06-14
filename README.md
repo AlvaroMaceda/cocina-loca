@@ -3,7 +3,7 @@ python -m venv .venv
 source .venv/bin/activate
 
 pip install pygame
-
+pip install matplotlib
 
 
 ## Notas
