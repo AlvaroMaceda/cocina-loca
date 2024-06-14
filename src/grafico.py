@@ -1,6 +1,6 @@
 import numpy as np
 
-from plot_function import plot_function
+from lib.plot import plot_function
 
 # Define a sample function to plot
 def sample_function(x):
